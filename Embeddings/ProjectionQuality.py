@@ -57,6 +57,4 @@ def projection_quality( X1, X2 ):
     
     return [f1(i) for i in range(X1.shape[0])]
 
-def epsilon(p):
-    D = csr_matrix(pairwise_distances(p))
     
