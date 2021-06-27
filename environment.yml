@@ -1,0 +1,10 @@
+dependencies:
+  - conda-forge::jupyter-panel-proxy
+  - pandas
+  - pyviz::pyviz_comms
+  - bokeh::bokeh
+  - pyviz::panel
+  - holoviews
+  - scikit-learn
+  - shapely
+  - conda-forge::umap-learn
