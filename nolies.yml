@@ -1,0 +1,27 @@
+# create environment:
+# conda env create -f nolies.yml
+# conda activate nolies
+# jupyter labextension install @pyviz/jupyterlab_pyviz
+
+# delete:
+# conda remove -n nolies --all
+
+name: nolies
+channels:
+  - defaults
+  - conda-forge
+  - pyviz
+dependencies:
+  - pandas
+  - numpy
+  - bokeh
+  - pyviz::panel
+  - holoviews
+  - seaborn
+  - scikit-learn
+  - shapely
+  - conda-forge::umap-learn
+  - jupyterlab=2
+  - openpyxl
+  - selenium 
+  - geckodriver
