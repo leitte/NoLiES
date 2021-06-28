@@ -25,7 +25,7 @@ Name | Link | Description | Size (data points x attributes) | Embedding
 Download the repository and create an environment with the dependencies:
 ```
 git clone https://github.com/leitte/NoLiES
-conda env create --name nolies --file environment.yml
+conda env create -f nolies.yml
 conda activate nolies
 ```
 
